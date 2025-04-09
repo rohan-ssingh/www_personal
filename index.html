@@ -10,17 +10,42 @@ title: Home
 
   My research interests lie at the intersection of artificial intelligence, software systems, healthcare technologies, and cybersecurity, with a focus on developing innovative solutions such as AI-powered medical devices, robust chatbot evaluation tools, and privacy-enhancing browser extensions.
     <br> <br>
-  My past research experiences have spanned natural language processing, computer vision, neuroimaging, computational genomics, and protein structure prediction. I have conducted research at:
+  My past research experiences have involved artificial intelligence, software systems, cybersecurity, and healthcare technologies. I have conducted research at:
   <ul>
-    <li>the <a href="https://www.dpmlab.org/" target="_blank">Dynamic Perception and Memory Lab</a> at Columbia, under Prof. Chris Baldassano and Jiawen Huang;</li>
-    <li>the <a href="https://www.aqlab.io/" target="_blank">AlQuraishi Lab</a> at Columbia under Prof. Mohammed AlQuraishi and Dr. Nazim Bouatta;</li>
-    <li>the <a href="https://www.jhuapl.edu/" target="_blank">Johns Hopkins Applied Physics Lab</a>, under Dr. Vince Pulido and Dr. Benjamin Skerritt-Davis;</li>
-    <li>the Schrauwen Lab at Columbia Medical Center, under Prof. Isabelle Schrauwen;</li>
-    <li>the Quantitative Imaging and AI Lab at Stanford, under Prof. Daniel Rubin and Dr. Hersh Sagreiya.</li>
+    <li>the <a href="https://systems.cs.columbia.edu/" target="_blank">Systems Software lab</a> at Columbia, under Prof. Junfeng Yang and Wei Hao;</li>
+    <li>the <a href="https://catalog.uark.edu/generalinfo/universitycentersandresearchunits/seeds/" target="_blank">SEEDS Cybersecurity Center</a> at the University of Arkansas under Prof. Qinghua Li;</li>
+    <li>the <a href="https://thomsonlab.caltech.edu/" target="_blank">Thomson Lab</a>, at Caltech under Surya Hari;</li>
+    <li>the AI Campus at Arkansas State University, under Prof. Jason Causey;</li>
   </ul>
-  I spent my most recent summer interning at PayPal as an AI Engineer Intern.
+  I interned at Walmart Global Tech as a Software Engineering and Computer Vision intern.
  </p>
 </div>
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>CV</h4>
+
+  <p>Full CV in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+<!-- 
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul> -->
+</div>
+
 
 <!--
 <div class="docs-section" id="prospective-students">  
@@ -240,15 +265,5 @@ title: Home
 
 <div class="docs-section" id="template">
   <h4>Website Design</h4>
-  Since I made this website, many people have found this Jekyll template useful [
-  {% for template_user in site.data.template_users.template_users %}
-  <a href="{{ template_user }}" target="_blank">{{ forloop.index }}</a>{% if forloop.last %}{% else %},{% endif %}
-  {% endfor %}
-  ].
-  <!--<br/>-->
-  You can find all the code needed to build your website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
-  Feel free to use it. <br/>
-
-  If you end up using it, please link to here and drop me an email.
-  I'm always happy to see people using it.
-</div>  
+  Thank you to <a href="https://faculty.washington.edu/msaveski/" target="_blank">Martin Saveski</a> for the  <a href="https://github.com/msaveski/www_personal" target="_blank">template</a> for this website.
+</div> 
