@@ -1,7 +1,7 @@
 papers:
 
   - title: "TraceMonitor: A Novel AI-Based Chrome Extension to Enhance User Awareness of Privacy Leakage towards Green Web Browsing"
-    authors: "<b>Rohan Singh</b>, Siddhartha Milkuri, Yaling Liu, Qinghua Li"
+    authors: "‡<b>Rohan Singh</b>, ‡Siddhartha Milkuri, Yaling Liu, Qinghua Li"
     venue: "IEEE GreenTech Conference 2024."
     paper_pdf: "/assets/publications/2025_cn_causal_effects/paper.pdf"
     selected: y
